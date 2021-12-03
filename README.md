@@ -52,6 +52,12 @@ Ajouter cette ligne dans *"C:\xampp\apache\conf\extra\httpd-vhosts.conf"*
     ##CustomLog "logs/dummy-host2.example.com-access.log" common
 </VirtualHost>
 ```
+Ensuite on va dans le host (*C:\Windows\System32\drivers\etc\hosts*) de notre systeme pour activer le nom de domaine *bedrock.local*
+NB : il faut mettre ses deux ligne en ouvrant le fichier en tant que administrateur
+```
+127.0.0.1 localhost
+127.0.0.1 bedrock.local
+```
 2 - Identifiant de connexion 
     _username_ : gkesgis
     _password_ : gkesgis1234
